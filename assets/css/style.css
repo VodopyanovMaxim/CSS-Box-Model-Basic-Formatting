@@ -18,7 +18,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 360px;
+  height: 100vh;
   width: 100%;
   opacity: 0.6;
   z-index: -1;
@@ -31,11 +31,11 @@ header {
 }
 
 header .content-wrapper {
-  height: 360px;
+  height: 100vh;
 }
 
 header h1 {
-  margin-top: 80px;
+  margin-top: 45vh;
 }
 
 a {
@@ -92,14 +92,4 @@ div {
 .div-3 {
   background-color: #533d5d;
   color: white;
-}
-
-@media screen and (max-width: 420px) {
-  .background-image,
-  header .content-wrapper {
-    height: 480px;
-  }
-  .section-3 div {
-    width: 100%;
-  }
 }
