@@ -10,6 +10,8 @@ body {
 header {
   color: black;
   padding: 0px 20px;
+  height: 55vh;
+  text-align: center;
 }
 
 .background-image {
@@ -25,21 +27,7 @@ header {
   width: 100%;
   opacity: 0.6;
   z-index: -1;
-}
-
-.content-wrapper {
-  text-align: center;
-  margin: 0 auto;
-  width: 80%;
-}
-
-header .content-wrapper {
-  height: 100vh;
-}
-
-header h1 {
-  margin-top: 45vh;
-}
+} 
 
 a {
   text-decoration: none;
@@ -47,6 +35,19 @@ a {
 
 h1 {
   font-size: 32px;
+  margin: 0 auto;
+  margin-top: 45vh;
+}
+
+p {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  padding: 40px 20px;
+}
+
+header p {
+  padding: 0px;
 }
 
 .button {
@@ -54,8 +55,8 @@ h1 {
   border: black 1px solid;
   color: inherit;
   padding: 5px;
-  margin-top: 20px;
   display: inline-block;
+  margin-top: 20px;
 }
 
 div {
@@ -63,13 +64,11 @@ div {
 }
 
 .section-1 {
-  padding: 20px;
   background-color: #533d5d;
   color: white;
 }
 
 .section-2 {
-  padding: 20px;
   background-color: white;
 }
 
@@ -77,22 +76,22 @@ div {
   font-size: 0px;
 }
 
-.section-3 div {
+.section-3 p {
   width: calc(100% / 3);
   display: inline-block;
   font-size: initial;
 }
 
-.div-1 {
+.p-1 {
   background-color: #533d5d;
   color: white;
 }
 
-.div-2 {
+.p-2 {
   background-color: white;
 }
 
-.div-3 {
+.p-3 {
   background-color: #533d5d;
   color: white;
 }
